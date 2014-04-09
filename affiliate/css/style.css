@@ -1,0 +1,286 @@
+body {
+    font-family: 'Open Sans', Arial;
+    color: #505050;
+}
+.p{font-size: 16px;}
+footer{
+	background: #bad52d;
+	padding: 15px 0;
+	height: 180px;
+	margin-bottom: 3px;
+	padding: 2em 0;
+	color: #fff;
+	text-align: center;
+}
+.ft-links{
+	color:#fff;
+	font-weight: 800;
+	padding :0 10px;
+}
+.footer-fb{
+	font-size: 30px;
+}
+.footer-connect{
+	width: 40px;
+}
+.footer-input{
+	width:50px;
+	display: inline-block;
+
+}
+.head-outer{
+	background: #d45237;
+	height: 50px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.4);
+	position: absolute;
+	position: fixed;
+	margin-bottom: 3px;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+}
+.head-inner{padding: 0 15px;font-size: 34px;font-weight: bold;color: #fff;}
+.wrapper{
+	margin: 0px 20px;
+	margin: 0 auto;
+	padding-top: 50px;
+	background: #f1f4f9;
+
+}
+.home-top-left1{margin:20px 10px 10px 2%;padding: 0;height: 380px;}
+.home-top-left2{margin:20px 10px;border-right: 1px solid #e3e3e3;height: 380px;/* background: #fff; *//* box-shadow: 0 0 5px rgba(0,0,0,0.2); */}
+.home-top-right{margin:20px 2% 10px 10px;height: 380px;}
+
+.home-pane-left{margin:10px 30px 10px 2%;padding: 25px 50px 50px;border-bottom: 1px solid #ddd;border-top: 1px solid #ddd;}
+.home-ad-right{margin:10px 2% 10px 10px; padding: 0;}
+
+.home-pane-right{margin:10px 2% 10px 10px;padding: 25px 50px 50px;/* background: #569CE3; */border-bottom: 1px solid #ddd;border-top: 1px solid #ddd;}
+.home-ad-left{margin:10px 30px 10px 2%; padding: 0;}
+
+.home-ad-centre{margin:10px 30px 10px 2%;}
+
+.ad-posts-125{width: 40%;float: left;margin: 0 5%;}
+.ad-posts-250{ margin: 15px auto 0px auto;  padding: 0 5%;}
+
+.ad-hori{margin:10px; text-align: center;}
+.carousel-item{}
+
+.caro-item-row{margin:5px;}
+.img-circle{
+	border: 3px solid #fff;height:60px;float:left;
+}
+.article-heading{}
+.article-link{text-decoration: underline}
+.article-pricing{}
+.article-subheading{}
+.article-title{}
+.img-author{margin-right: 20px}
+
+/* Featured list */
+.featured-list {
+    list-style: none inside;
+    padding: 0;
+    margin: 0;
+    border-right: 1px solid #e3e3e3;
+}
+.featured-list li img {
+    width: 100px;
+    height: 88px;
+    float: left;
+    margin-right: 15px;
+}
+.featured-list h2 {
+    font-size: 16px;
+    line-height: 22px;
+    padding: 0;
+    height: 88px;
+    margin: 0;
+    overflow-y: hidden;
+}
+.featured-list li {
+    padding: 5px 10px 5px 0;
+    color: #505050;
+}
+.featured-list .post-tags{
+    font-size: 12px;
+    padding: 6px 0;
+}
+.featured-list .post-tags a,
+.featured-list .post-tags a:visited {
+    color: #D45237;
+}
+/* Post Block */
+.post-block .post-author {
+    width: 70px;
+    height: 70px;
+    border-radius: 30px;
+    float: left;
+    margin-right: 10px;
+}
+.post-block h1.post-title {
+    font-weight: 300;
+    color: #333;
+    font-size: 40px;
+}
+.post-block .post-tags a,.post-block .post-tags a:visited {
+    color: #D22B36;
+}
+.post-block .post-tags {
+    font-size: 14px;
+}
+.post-block {
+    color: #474747;
+}
+.post-block .post-share {
+    padding: 10px 0;
+    height: 40px;
+}
+.home-top-block img{
+	display: block;
+}
+.home-pane-block .post-block {
+    /* color: #fafafa; */
+	height: 390px;
+}
+.home-pane-block .post-block h1.post-title {
+    /* color: #fff; */
+}
+.home-pane-block .post-block a,
+.home-pane-block .post-block a:visited {
+    /* color: #fff; */
+}
+.home-pane-block button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.carousel-control .glyphicon {
+    color: #000;
+}
+.carousel-indicators li {
+    border: 1px solid #333;
+}
+.carousel-indicators .active {
+    background: #505050;
+}
+/* Home Ad Right */
+.home-ad-block{
+	height: 475px;
+}
+.home-ad-block h3 {
+    padding: 10px 20px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+/* Full post */
+.page-container {
+    border-top: 1px solid #ddd;
+    margin: 0 -15px;
+}
+.full-post-container {
+    background: #fff;
+}
+.full-post-block {
+    padding: 0px 3% 20px 20px;
+    margin: 0 -15px;
+    line-height: 1.6em;
+}
+.full-post-block h1.post-title {
+    font-size: 3em;
+    font-weight: 400;
+    margin: 0;
+    padding: .1em 0 .5em 0;
+}
+.full-post-block a,
+.full-post-block a:visited {
+    color: #cc0000;
+}
+.post-header {
+    padding: 10px 15px 30px;
+    margin: 0 -15px;
+    background: url(../img/drop-noshadow.png) no-repeat 0 bottom #fff;
+    font-weight: bold;
+    color: #aaa;
+}
+.sidebar-block h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.sidebar-block {
+    margin: 20px 0;
+}
+.step-detail {
+    margin-left: 10%;
+    padding-left: 10%;
+    border-left: 1px solid #ddd;
+    position: relative;
+    padding: 1em 10px 1em 10%;
+}
+.step-detail .step-number {
+    position: absolute;
+    left: -25px;
+    background: #ddd;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 50%;
+    line-height: 30px;
+    display: block;
+    width: 50px;
+	font-weight: bold;
+}
+.step-detail h2 {
+    margin: 0;
+    padding-bottom: 0.5em;
+}
+.step-detail p {
+    margin: 0;
+}
+.full-post-block .addthis_toolbox {
+    float: left;
+    height: 66px;
+    overflow: hidden;
+}
+.full-post-block .addthis_toolbox .at300b {
+    margin-right: 10px;
+}
+.full-post-block .post-tags {
+    text-align: right;
+}
+.full-post-block .full-post-body {
+    padding: 20px 0;
+}
+.full-post-block .post-para {
+    padding: 2em 0 2em 10%;
+}
+.full-post-block .border-block {
+    border-bottom: 1px solid #ddd;
+}
+.full-post-block .content-img-center{
+    padding: 5%;
+    background: #f6f6f6;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin: 1em 0;
+}
+.full-post-block .content-img-center img ,
+.full-post-block .content-img-right img {
+    max-width: 100%;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+}
+.full-post-block .content-img-right{
+    padding: 5%;
+    background: #f6f6f6;
+    border: 1px solid #ddd;
+    text-align: center;
+    float: right;
+    margin-left: 1em;
+}
+.sidebar-block a, .sidebar-block a:visited {
+    color: #1F6CAA;
+}
+.sidebar-block a:hover,  .sidebar-block a:focus {
+    color: #1F96F5;
+    text-decoration: none;
+}
